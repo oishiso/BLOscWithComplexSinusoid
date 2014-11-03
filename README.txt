@@ -3,18 +3,13 @@ How to install
 If SuperCollider is open and the localhost is in use, quit the server.
 
 Move the UGen file with extension .scx and the class definition file with extension .sc to the SuperCollider Extensions folder in the users library for Application Support, e.g. /Users/user/Library/Application Support/SuperCollider/ExtensionsIf the Extensions folder does not exist, it should be made.
-Move the help file with extension .schelp to the Extensions folder in HelpSource/Classes, e.g. /Users/user/Library/Application Support/SuperCollider/Extensions/HelpSource/ClassesRecompile the class library (Language > Recompile Class Library) and reboot the server within SuperCollider IDE.
+Recompile the class library (Language > Recompile Class Library) and reboot the server within SuperCollider IDE.
 In case SuperCollider is unhappy dealing with new UGens, quit SuperCollider and load it again.
 
 
 SuperCollider demo code
 -------
 SuperCollider file with extension .scd demonstrates the basic function of this UGen.
-
-
-PDF file
--------
-PDF file briefly explains the algorithm of this UGen.
 
 
 Modifying the software
